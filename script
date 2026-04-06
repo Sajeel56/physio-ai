@@ -1,0 +1,132 @@
+const physioDB = [
+{
+symptoms: ["low back pain", "stiffness", "no radiation"],
+condition: "Low Back Pain",
+causes: "Poor posture, prolonged sitting, muscle imbalance",
+treatment: "Posture correction, heat therapy, core strengthening",
+exercises: [
+"Pelvic tilt",
+"Cat-camel stretch",
+"Bridging",
+"Knee to chest stretch",
+"Bird dog exercise"
+]
+},
+{
+symptoms: ["neck pain", "stiffness", "mobile use"],
+condition: "Neck Pain",
+causes: "Poor posture, long screen time",
+treatment: "Posture correction, manual therapy",
+exercises: [
+"Chin tuck",
+"Neck side bending",
+"Neck rotation",
+"Shoulder shrugs",
+"Scapular retraction"
+]
+},
+{
+symptoms: ["knee pain", "stiffness", "age"],
+condition: "Knee Osteoarthritis",
+causes: "Aging, obesity, joint degeneration",
+treatment: "Strengthening, weight management",
+exercises: [
+"Quadriceps setting",
+"Straight leg raise",
+"Hamstring stretch",
+"Wall squat",
+"Step-up exercise"
+]
+},
+{
+symptoms: ["back pain", "leg pain", "numbness"],
+condition: "Sciatica",
+causes: "Nerve compression, disc issue",
+treatment: "Nerve mobilization, posture correction",
+exercises: [
+"Sciatic nerve glide",
+"Hamstring stretch",
+"Piriformis stretch",
+"Pelvic tilt",
+"Walking"
+]
+},
+{
+symptoms: ["shoulder pain", "stiffness", "limited movement"],
+condition: "Frozen Shoulder",
+causes: "Capsular tightness, immobility",
+treatment: "Mobilization, stretching",
+exercises: [
+"Pendulum exercise",
+"Wall climbing",
+"Towel stretch",
+"Crossover stretch",
+"External rotation stretch"
+]
+},
+{
+symptoms: ["shoulder pain", "overhead pain"],
+condition: "Shoulder Impingement",
+causes: "Rotator cuff compression",
+treatment: "Strengthening, posture correction",
+exercises: [
+"Pendulum",
+"External rotation",
+"Internal rotation",
+"Scapular strengthening",
+"Wall slides"
+]
+},
+{
+symptoms: ["ankle pain", "swelling", "twisting"],
+condition: "Ankle Sprain",
+causes: "Ligament injury",
+treatment: "RICE, strengthening",
+exercises: [
+"Ankle pumps",
+"Alphabet exercise",
+"Heel raises",
+"Balance training",
+"Resistance band exercise"
+]
+},
+{
+symptoms: ["elbow pain", "grip pain"],
+condition: "Tennis Elbow",
+causes: "Overuse",
+treatment: "Rest, brace, therapy",
+exercises: [
+"Wrist extension",
+"Wrist flexion stretch",
+"Grip strengthening",
+"Forearm stretch",
+"Eccentric training"
+]
+},
+{
+symptoms: ["back pain", "radiating pain", "disc"],
+condition: "Disc Herniation",
+causes: "Disc bulge, lifting injury",
+treatment: "Posture correction, physiotherapy",
+exercises: [
+"McKenzie extension",
+"Pelvic tilt",
+"Core strengthening",
+"Hamstring stretch",
+"Walking"
+]
+},
+{
+symptoms: ["muscle pain", "tightness", "activity"],
+condition: "Muscle Strain",
+causes: "Overstretch, overload",
+treatment: "Rest, ice, rehab",
+exercises: [
+"Gentle stretch",
+"Isometric exercise",
+"Strengthening",
+"Foam rolling",
+"Range of motion exercise"
+]
+}
+];
