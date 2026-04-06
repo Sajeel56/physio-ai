@@ -1,0 +1,23 @@
+function diagnose() {
+let input = document.getElementById("symptom").value.toLowerCase();
+
+let resultBox = document.getElementById("result");
+
+let found = physioDB.find(item =>
+item.symptoms.some(sym => input.includes(sym))
+);
+
+if (found) {
+resultBox.innerHTML = `
+<h3>${found.condition}</h3>
+<b>Causes:</b> ${found.causes}<br><br>
+<b>Treatment:</b> ${found.treatment}<br><br>
+<b>Exercises:</b>
+<ul>
+${found.exercises.map(ex => `<li>${ex}</li>`).join("")}
+</ul>
+`;
+} else {
+resultBox.innerHTML = "No condition found. Try different symptoms.";
+}
+}
